@@ -16,13 +16,15 @@
 		1671452A19C041F4008881D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1671452819C041F4008881D3 /* Main.storyboard */; };
 		1671453619C041F4008881D3 /* HID_ExplorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1671453519C041F4008881D3 /* HID_ExplorerTests.m */; };
 		16764DB019E7D50900B2BCD0 /* USB HID Usage Tables.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16764DAF19E7D50900B2BCD0 /* USB HID Usage Tables.plist */; };
-		1678235B1A6998FE00064B83 /* HIDKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1678235A1A6998FE00064B83 /* HIDKit.framework */; };
-		1678235C1A69990700064B83 /* HIDKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = 1678235A1A6998FE00064B83 /* HIDKit.framework */; };
 		1687C74819EE7CAF008D2B1A /* HXSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1687C74719EE7CAF008D2B1A /* HXSplitViewController.m */; };
 		16AEF19B19E8286B00A7A79D /* HXUsageTableTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AEF19A19E8286B00A7A79D /* HXUsageTableTranslator.m */; };
 		16CD259419E683BB00FEBC88 /* adHexFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CD259319E683BB00FEBC88 /* adHexFormatter.m */; };
 		16E17FCC19E527F3000827BC /* HXElementInspectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E17FCB19E527F3000827BC /* HXElementInspectorViewController.m */; };
 		16E9DA0C19C99E01005E193B /* HXDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E9DA0B19C99E01005E193B /* HXDeviceViewController.m */; };
+		1D2754C01FCAF1A80042B26B /* HIDKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1671453F19C04206008881D3 /* HIDKit.framework */; };
+		1D2754C41FCAF3A10042B26B /* HIDKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1671453F19C04206008881D3 /* HIDKit.framework */; };
+		1D2754C51FCAF3A80042B26B /* HIDKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2754C21FCAF1DA0042B26B /* HIDKit.framework */; };
+		1D2754C61FCAF3A80042B26B /* HIDKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2754C21FCAF1DA0042B26B /* HIDKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,20 @@
 			remoteInfo = "HID Explorer";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1D2754C71FCAF3A80042B26B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1D2754C61FCAF3A80042B26B /* HIDKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1625813E19E4014D000A0ADF /* ElementTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementTreeNode.h; sourceTree = "<group>"; };
@@ -52,9 +68,8 @@
 		1671452F19C041F4008881D3 /* HID ExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HID ExplorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1671453419C041F4008881D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1671453519C041F4008881D3 /* HID_ExplorerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HID_ExplorerTests.m; sourceTree = "<group>"; };
-		1671453F19C04206008881D3 /* HIDKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HIDKit.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/OS_X_Controllers-asvjnfqilrsjgqeqkysrbtrklxbr/Build/Products/Debug/HIDKit.framework"; sourceTree = "<group>"; };
+		1671453F19C04206008881D3 /* HIDKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HIDKit.framework; path = "/Users/rad/Library/Developer/Xcode/DerivedData/HIDKit-gmwbmkygsbsmvsdsegjwsdcnakkr/Build/Products/Debug/HIDKit.framework"; sourceTree = "<group>"; };
 		16764DAF19E7D50900B2BCD0 /* USB HID Usage Tables.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "USB HID Usage Tables.plist"; sourceTree = "<group>"; };
-		1678235A1A6998FE00064B83 /* HIDKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HIDKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/OS_X_Controllers-dbcwvxgzoxkumifzhtdrfrtkmaaf/Build/Products/Debug/HIDKit.framework"; sourceTree = "<group>"; };
 		1687C74619EE7CAF008D2B1A /* HXSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXSplitViewController.h; sourceTree = "<group>"; };
 		1687C74719EE7CAF008D2B1A /* HXSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXSplitViewController.m; sourceTree = "<group>"; };
 		16AEF19919E8286B00A7A79D /* HXUsageTableTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXUsageTableTranslator.h; sourceTree = "<group>"; };
@@ -65,6 +80,7 @@
 		16E17FCB19E527F3000827BC /* HXElementInspectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXElementInspectorViewController.m; sourceTree = "<group>"; };
 		16E9DA0A19C99E01005E193B /* HXDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDeviceViewController.h; sourceTree = "<group>"; };
 		16E9DA0B19C99E01005E193B /* HXDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDeviceViewController.m; sourceTree = "<group>"; };
+		1D2754C21FCAF1DA0042B26B /* HIDKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HIDKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1678235B1A6998FE00064B83 /* HIDKit.framework in Frameworks */,
+				1D2754C41FCAF3A10042B26B /* HIDKit.framework in Frameworks */,
+				1D2754C51FCAF3A80042B26B /* HIDKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D2754C01FCAF1A80042B26B /* HIDKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,10 +130,10 @@
 		1671451019C041F4008881D3 = {
 			isa = PBXGroup;
 			children = (
-				1678235A1A6998FE00064B83 /* HIDKit.framework */,
 				1671451B19C041F4008881D3 /* HID Explorer */,
 				1671453219C041F4008881D3 /* HID ExplorerTests */,
 				1671451A19C041F4008881D3 /* Products */,
+				1D2754BE1FCAF13C0042B26B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +196,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1D2754BE1FCAF13C0042B26B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D2754C21FCAF1DA0042B26B /* HIDKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,6 +214,7 @@
 				1671451519C041F4008881D3 /* Sources */,
 				1671451619C041F4008881D3 /* Frameworks */,
 				1671451719C041F4008881D3 /* Resources */,
+				1D2754C71FCAF3A80042B26B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,7 +285,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1678235C1A69990700064B83 /* HIDKit.framework in Resources */,
 				1671452719C041F4008881D3 /* Images.xcassets in Resources */,
 				1671452A19C041F4008881D3 /* Main.storyboard in Resources */,
 				16764DB019E7D50900B2BCD0 /* USB HID Usage Tables.plist in Resources */,
@@ -342,6 +368,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "/Users/rad/Library/Developer/Xcode/DerivedData/HIDKit-gmwbmkygsbsmvsdsegjwsdcnakkr/Build/Products/Debug";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -405,8 +432,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/OS_X_Controllers-asvjnfqilrsjgqeqkysrbtrklxbr/Build/Products/Debug",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/OS_X_Controllers-dbcwvxgzoxkumifzhtdrfrtkmaaf/Build/Products/Debug",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "HID Explorer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -421,8 +447,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/OS_X_Controllers-asvjnfqilrsjgqeqkysrbtrklxbr/Build/Products/Debug",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/OS_X_Controllers-dbcwvxgzoxkumifzhtdrfrtkmaaf/Build/Products/Debug",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "HID Explorer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";

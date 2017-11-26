@@ -12,7 +12,7 @@
 
 #import "HXSourceListController.h"
 #import "HXSourceListItem.h"
-#import <HIDKit/HIDKit.h>
+#import </Users/rad/Downloads/HIDKit/HIDKit/HIDKit.h>
 
 //------------------------------------------------------------------------------
 #pragma mark Private Class Extension

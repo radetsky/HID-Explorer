@@ -1,0 +1,6 @@
+framework module HIDKit {
+  umbrella header "HIDKit.h"
+
+  export *
+  module * { export * }
+}

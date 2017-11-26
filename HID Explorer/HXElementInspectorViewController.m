@@ -9,7 +9,7 @@
 #import "HXElementInspectorViewController.h"
 
 #import "ElementTreeNode.h"
-#import <HIDKit/HIDKit.h>
+#import </Users/rad/Downloads/HIDKit/HIDKit/HIDKit.h>
 #import "HXUsageTableTranslator.h"
 
 //------------------------------------------------------------------------------

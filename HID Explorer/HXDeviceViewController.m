@@ -7,7 +7,7 @@
 //
 
 
-#import <HIDKit/HIDKit.h>
+#import </Users/rad/Downloads/HIDKit/HIDKit/HIDKit.h>
 #import "ElementTreeNode.h"
 
 #import "HXUsageTableTranslator.h"
